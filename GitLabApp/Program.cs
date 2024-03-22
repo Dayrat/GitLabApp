@@ -10,6 +10,7 @@ namespace GitLabApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите переменную");
             string s = Console.ReadLine();
             double x = double.Parse(s);
             double F = 3 * Math.Sin(x + 2);
